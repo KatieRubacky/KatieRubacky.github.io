@@ -2,23 +2,46 @@
 <html>
 <head>
 	<title>Project-Based Learning at AFHS</title>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/materialize.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div>
-		<h1 class="redblock">Project Based Learning</h1>
-		<div class="blueblock">
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper red lighten-1">
+				  <a href="#" class="brand-logo">Project Based Learning</a>
+				  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				    <li><a href="#what">About</a></li>
+				    <li><a href="#faq">FAQ</a></li>
+				  </ul>
+				</div>
+			</nav>
+		</div>
+	    <div class="parallax-container">
+	      <div class="parallax">
+		  <img src="./img/apex.jpg">
+		  </div>
+	    </div>
+		<div id="what" class="blue darken-3 paragraph">
 			<h2>What is Project Based Learning?</h2>
 			<p> PBL is applying real-life challenges where the focus is on real problems or questions.
 			 In order to pass classes, students study meaningless “drills” which do not provide any benefit later in life, when they could be using their skills in a real-world simulation.
 			 According to <a href="https://dl.icdst.org/pdfs/files1/aac48826d9652cb154e2dbf0033376fa.pdf">A Review of Research on Project-Based Learning</a>,  PBL is a more effective teaching strategy that is being used in many places.
-			  It teaches students to solve a “driving question” without being fully guided by teachers. As of right now, students show and apply their knowledge through tests, which is the most common form of assessment.
-			   Although a majority of teachers use tests to measure students’ knowledge, project-based learning can help students apply their knowledge, collaborate with others, and solve a “driving question”. 
+			  It teaches students to solve a "driving question" without being fully guided by teachers. As of right now, students show and apply their knowledge through tests, which is the most common form of assessment.
+			   Although a majority of teachers use tests to measure students' knowledge, project-based learning can help students apply their knowledge, collaborate with others, and solve a "driving question". 
 			</p>
 		
 		</div>
-		
-		<div>
+	    <div class="parallax-container">
+	      <div class="parallax">
+		  <img src="./img/rubric.jpeg">
+		  </div>
+	    </div>
+		<div id="faq" class="paragraph">
 			<h2>FAQ</h2>
 			<h3>Where is a good place to start?</h3>
 			<p>Start by talking to other teacher who use project-based learning and bounce ideas off them. Share resources with other teachers 
@@ -37,7 +60,8 @@
 			<p>When students are absent they can fall behind other than that no.</p>
 		</div>
 	</div>
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="./js/materialize.min.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 </html>
